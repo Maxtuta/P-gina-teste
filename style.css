@@ -3,11 +3,11 @@ body{
     margin: 0;
     padding: 0;
  }
- .contrainer{
+ .container{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(0, 251, 255);
+    background-color: rgb(85, 12, 98);
     color: azure;
  }
  titulo{
@@ -26,17 +26,24 @@ body{
     border-radius: 30px;
  
  }
- .ator{
+ .atores{
     display:flex;
     justify-content: space-around;
     margin-bottom: 30px;
-    
   }
- .atores{
+ 
+ .ator{
      text-align: center;
  }
  .ator img{
-     width: 300px;
-     height: auto;
+     width: 150px;
+     height: 200;
+     object-fit: cover;
+     border-radius: 15px;
      
+ }
+ 
+ .nome-personagem{
+     font-family: 'Times New Roman', Times, serif;
+     color: crimson;
  }
