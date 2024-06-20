@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jacquard+24+Charted&display=swap');
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Anton, sans-serif;
     margin: 0;
     padding: 0;
  }
@@ -7,8 +11,13 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(85, 12, 98);
+    background: linear-gradient(red,purple,blue);
     color: azure;
+    
+ }
+ .titulo-principal{
+    font-family: Jacquard 24 Charted, serif;
+    text-align: center;
  }
  titulo{
     text-align: center;
@@ -45,5 +54,5 @@ body{
  
  .nome-personagem{
      font-family: 'Times New Roman', Times, serif;
-     color: crimson;
+     color: rgb(254, 0, 0);
  }
