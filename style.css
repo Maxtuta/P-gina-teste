@@ -11,7 +11,7 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(red,purple,blue);
+    background: linear-gradient(red,purple,blue,purple,red);
     color: azure;
     
  }
@@ -54,5 +54,13 @@ body{
  
  .nome-personagem{
      font-family: 'Times New Roman', Times, serif;
-     color: rgb(254, 0, 0);
+     color: rgb(180, 176, 176)
  }
+ .titulo-sinopse{
+    color: black;
+ }
+ .sinopse{
+    color: rgb(28, 27, 27)
+
+ }
+ 
